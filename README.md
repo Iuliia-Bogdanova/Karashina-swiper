@@ -1,3 +1,3 @@
-# to-do-list-errors
-week22 task1
-Сделайте обработку ошибок для любого из заданий прошлой недели. Например, что случится, если нет интернета или имя сервера, куда мы обращаемся, недоступно? Добейтесь, чтобы ваше приложение выводило понятные пользователю сообщения в случае ошибки, например "Сервер не доступен".
+Image Slider(slideshow/carousel) with Both Auto-play and Manual Navigation using CSS, HTML, and Javascript. Manual navigation is with buttons and you can navigate to any slide using these buttons. Autoplay navigation is automatically changing slides due to a timer set by using javascript.
+
+Coding Snow. 20/05/20

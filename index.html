@@ -4,21 +4,67 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+	/>
 	<link rel="stylesheet" href="./style.css">
-	<title>Image Slider</title>
+	<title>Karashina-swiper</title>
 </head>
 <body>
-	<!-- image slider -->
-	<div class="slider">
+
+<div class="wrapper">
+	<h1 class="title">Karashina</h1>
+	
+	<div class="image-slider swiper_container">
+		<div class="image-slider__wrapper swiper-wrapper">
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/01.jpg" alt="Image">
+				</div>
+			</div>
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/02.jpg" alt="Image">
+				</div>
+			</div>
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/03.jpg" alt="Image">
+				</div>
+			</div>
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/04.jpg" alt="Image">
+				</div>
+			</div>
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/05.jpg" alt="Image">
+				</div>
+			</div>
+			<div class="image-slider__slide swiper-slide">
+				<div class="image-slider__image">
+					<img src="./img/06.jpg" alt="Image">
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	</div>
+</div>
+	
+	<!-- <div class="slider">
 		<div class="slides">
-			<!-- radio buttons -->
+			
 			<input type="radio" name="radio-btn" id="radio1">
 			<input type="radio" name="radio-btn" id="radio2">
 			<input type="radio" name="radio-btn" id="radio3">
 			<input type="radio" name="radio-btn" id="radio4">
 			<input type="radio" name="radio-btn" id="radio5">
 			<input type="radio" name="radio-btn" id="radio6">
-			<!-- slide images -->
+			
 			<div class="slide first">
 				<img src="./img/01.jpg" alt="house">
 			</div>
@@ -37,7 +83,7 @@
 			<div class="slide">
 				<img src="./img/06.jpg" alt="well">
 			</div>
-			<!-- automatic navigation -->
+			
 			<div class="navigation-auto">
 				<div class="auto-btn1"></div>
 				<div class="auto-btn2"></div>
@@ -46,7 +92,7 @@
 				<div class="auto-btn5"></div>
 				<div class="auto-btn6"></div>
 			</div>
-			<!-- manual navigation -->
+			
 			<div class="navigation-manual">
 				<label for="radio1" class="manual-btn"></label>
 				<label for="radio2" class="manual-btn"></label>
@@ -56,8 +102,9 @@
 				<label for="radio6" class="manual-btn"></label>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 	<script src="./script.js"></script>
 </body>
 </html>
